@@ -2,7 +2,7 @@
 #originally made for Landsat products, but easily adaptable for any kind of file containing
 #a substring from wich you want to creat directories. All files containing the same substring
 #at the same position will be move in the previously created directory.
-for file in *.TIF
+for file in *.TIF *.txt *.jpg
 do
   if test -f $file 
   #-f : True if FILE exists and is a regular file.
